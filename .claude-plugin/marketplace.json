@@ -1,0 +1,10 @@
+{
+  "owner": { "name": "Atticus Wang" },
+  "plugins": [
+    {
+      "name": "code-review",
+      "source": "./code-review",
+      "description": "Automatic code review before commits using specialized sub-agents"
+    }
+  ]
+}
