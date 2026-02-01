@@ -1,4 +1,5 @@
 {
+  "name": "agent-tools",
   "owner": { "name": "Atticus Wang" },
   "plugins": [
     {
