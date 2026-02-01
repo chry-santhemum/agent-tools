@@ -26,7 +26,7 @@ Before spawning the review master, gather the changes that will be reviewed:
 
 ### Step 2: Spawn the Code Review Master Agent
 
-Use the Task tool to spawn the `code-review-master` agent with `subagent_type` set to the agent name. Pass the following information in the prompt:
+Use the Task tool to spawn the `code-review:code-review-master` agent with `subagent_type` set to the namespaced agent name. Pass the following information in the prompt:
 
 - The full diff output
 - The list of changed files
@@ -36,7 +36,7 @@ Use the Task tool to spawn the `code-review-master` agent with `subagent_type` s
 
 ```
 Task tool call:
-  subagent_type: "code-review-master"
+  subagent_type: "code-review:code-review-master"
   prompt: |
     Review the following changes before commit.
 

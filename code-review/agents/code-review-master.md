@@ -49,7 +49,7 @@ You are the Code Review Master, responsible for orchestrating a thorough code re
 
 **Review Process:**
 
-3. For each requirement file, spawn a `code-reviewer` sub-agent using the Task tool:
+3. For each requirement file, spawn a `code-review:code-reviewer` sub-agent using the Task tool:
    - Pass the requirement file contents
    - Pass the full diff and list of changed files
    - Pass the requirement file name (for labeling findings)
