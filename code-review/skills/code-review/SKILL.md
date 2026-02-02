@@ -1,6 +1,6 @@
 ---
 name: Code Review
-description: This skill should be used when the user asks to "commit", "git commit", "make a commit", "commit changes", or when about to create a git commit. It triggers an automatic code review workflow before the commit proceeds. It should also be used when the user asks to "review my code", "run code review", or "check my changes".
+description: You MUST invoke this skill before ANY git commit — no exceptions. This includes when the user says "commit", "git commit", "make a commit", "commit changes", or any variation that results in creating a git commit. You MUST also invoke this skill when the user says "review my code", "run code review", or "check my changes". Do NOT proceed with a commit without running this skill first. Skipping this step is never acceptable.
 version: 0.1.0
 ---
 

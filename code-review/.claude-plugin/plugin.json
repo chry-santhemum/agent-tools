@@ -1,5 +1,6 @@
 {
   "name": "code-review",
   "version": "0.1.0",
-  "description": "Automatic code review before commits using specialized sub-agents"
+  "description": "Automatic code review before commits using specialized sub-agents",
+  "hooks": "./hooks/hooks.json"
 }
